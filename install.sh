@@ -1,11 +1,10 @@
 #!/bin/bash
-sudo dnf corp enable solopasha/hyprland
 sudo dnf copr enable solopasha/hyprland
 sudo dnf copr enable atim/heroic-games-launcher
 sudo dnf copr enable wezfurlong/wezterm-nightly
-sudo dnf corp enable atim/bottom
-sudo dnf corp enable atim/lazygit
-sudo dnf corp enable atim/starship
+sudo dnf copr enable atim/bottom
+sudo dnf copr enable atim/lazygit
+sudo dnf copr enable atim/starship
 
 sudo dnf install -y\
                   gdm\
