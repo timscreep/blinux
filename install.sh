@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
 sudo dnf copr enable solopasha/hyprland
 sudo dnf copr enable atim/heroic-games-launcher
 sudo dnf copr enable wezfurlong/wezterm-nightly
