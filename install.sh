@@ -29,5 +29,7 @@ sudo dnf install -y\
                   wezterm\
                   chromium\
                   neovim\
-                  f3
+                  f3\
+                  steam\
+                  nautilus
 gsettings set org.gnome.desktop.wm.preferences button-layout ''
