@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo dnf corp enable solopasha/hyprland
-
+sudo dnf copr enable solopasha/hyprland
 sudo dnf copr enable atim/heroic-games-launcher
 sudo dnf copr enable wezfurlong/wezterm-nightly
 sudo dnf corp enable atim/bottom
