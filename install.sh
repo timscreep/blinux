@@ -8,7 +8,7 @@ sudo dnf copr enable atim/bottom -y
 sudo dnf copr enable atim/lazygit -y
 sudo dnf copr enable atim/starship -y
 
-sudo dnf install -y\
+sudo dnf install --setopt=install_weak_deps=False -y\
                   gdm\
                   hyprland\
                   hyprpicker\
