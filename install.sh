@@ -7,7 +7,7 @@ sudo dnf copr enable wezfurlong/wezterm-nightly -y
 sudo dnf copr enable atim/bottom -y
 sudo dnf copr enable atim/lazygit -y
 sudo dnf copr enable atim/starship -y
-
+sudo dnf copr enable erikreider/SwayNotificationCenter -y
 sudo dnf install --setopt=install_weak_deps=False -y\
                   starship\
                   gdm\
@@ -32,6 +32,7 @@ sudo dnf install --setopt=install_weak_deps=False -y\
                   wezterm\
                   chromium\
                   neovim\
+                  SwayNotificationCenter\
                   f3\
                   steam\
                   nautilus
