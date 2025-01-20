@@ -10,7 +10,6 @@ sudo dnf copr enable atim/starship -y
 sudo dnf copr enable erikreider/SwayNotificationCenter -y
 sudo dnf install --setopt=install_weak_deps=False -y\
                   starship\
-                  gdm\
                   hyprland\
                   hyprpicker\
                   eww-git\
