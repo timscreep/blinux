@@ -34,5 +34,12 @@ sudo dnf install --setopt=install_weak_deps=False -y\
                   SwayNotificationCenter\
                   f3\
                   steam\
-                  nautilus
+                  nautilus\
+                  sushi\
+                  gnome-tweaks\
+                  xfce-polkit\
+                  hyprland-qtutils\
+                  flatpak\
 gsettings set org.gnome.desktop.wm.preferences button-layout ''
+sudo dnf update
+
