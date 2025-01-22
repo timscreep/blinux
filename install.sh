@@ -9,6 +9,9 @@ sudo dnf copr enable atim/lazygit -y
 sudo dnf copr enable atim/starship -y
 sudo dnf copr enable erikreider/SwayNotificationCenter -y
 sudo dnf install --setopt=install_weak_deps=False -y\
+                  iwlegacy-firmware\
+                  iwlwifi-dvm-firmware\
+                  iwlwifi-mvm-firmware\
                   starship\
                   hyprland\
                   hyprpicker\
@@ -42,6 +45,7 @@ sudo dnf install --setopt=install_weak_deps=False -y\
                   flatpak\
                   distrobox\
                   gnome-boxes\
+                  akmod-nvidia\
 gsettings set org.gnome.desktop.wm.preferences button-layout ''
 sudo dnf update
 
